@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: sshfs
+# key: sshfs
+# --
+sudo sshfs -o allow_other $1@$2:/ /media/servidor/$3

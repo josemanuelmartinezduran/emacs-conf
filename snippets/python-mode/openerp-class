@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: openerp-class
+# key: openerp-class
+# --
+
+class jmd$1(osv.Model):
+    _name = "$2"
+    _inherit = "mail.thread"
+    _columns = {
+    	     name=fields.char("Nombre")
+	     $3
+    }

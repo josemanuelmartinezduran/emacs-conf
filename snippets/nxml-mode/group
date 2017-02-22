@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: group
+# key: group
+# --
+<filter string="2" name="" icon="terp-accesories-archiver" domain="[1]" context="{'group_by': '0'}">

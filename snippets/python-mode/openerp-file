@@ -1,0 +1,11 @@
+# name:odoofile
+# key: odoo-file
+# --
+# -*- coding: utf-8 -*-
+from openerp import models, fields, api
+
+
+class jmd_$1(models.Model):
+    _inherit = "mail.thread"
+    _name = "$2"
+    name = fields.Char("$3")

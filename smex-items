@@ -1,0 +1,28 @@
+
+;; ----- smex-history -----
+(
+ linum-mode
+ shell
+ yas-new-snippet
+ org-mode
+ package-install
+ nxml-mode
+ x-set-selection
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 6)
+ (evil-mode . 3)
+ (org-mode . 10)
+ (nlinum-mode . 2)
+ (recover-session . 1)
+ (yas-new-snippet . 16)
+ (linum-mode . 12)
+ (shell . 3)
+ (shell-mode . 1)
+ (text-mode . 4)
+ (nxml-mode . 4)
+ (grep . 1)
+ (x-set-selection . 1)
+)

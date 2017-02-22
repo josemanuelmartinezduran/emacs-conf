@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: attrs
+# key: attrs
+# --
+attrs="{'invisible': [('$1', '$2', '$3')]}"

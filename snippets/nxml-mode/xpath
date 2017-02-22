@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: xpath
+# key: xpath
+# --
+<xpath expr="$1" position="$2">
+       <field name="$3">
+       $4
+</xpath>
