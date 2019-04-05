@@ -13,19 +13,14 @@
 ;;--------- package management -------------------------------------------------
 (require 'package)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/"))
-
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+'("melpa" . "https://melpa.org/packages/"))
+(when (< emacs-major-version 24)
+(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
 
 (package-initialize)
 '(evil-search-module (quote evil-search))
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "C-M-z") 'switch-window)
-
-(require 'alpha)
-(global-set-key (kbd "C-M-)") 'transparency-increase)
-(global-set-key (kbd "C-M-(") 'transparency-decrease)
 ;;---------Managing my package --------------------------------------------------
 (require 'cl)
 (defvar required-packages
